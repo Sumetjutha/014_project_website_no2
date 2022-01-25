@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.menubar {
+  height: 50px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 0 10px rgb(248, 247, 247);
+}
+
+.menubar .logo {
+  float: left;
+}
+
+.menubar h1 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: normal;
+  padding-top: 9px;
+}
+
+.menubar ul.menu {
+  list-style: none;
+  float: right;
+}
+
+.menubar ul.menu li {
+  float: left;
+  margin-right: 21px;
+}
+
+.menubar ul.menu li a {
+  text-decoration: none;
+  color: #333;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.menubar ul.menu li a:hover {
+  border-bottom: 2px solid #333;
+  padding-bottom: 0;
+}
+
+.header {
+  width: 100%;
+  background: url(../img/picture_1.jpg) no-repeat;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+}
+
+.header__area {
+  padding-top: 160px;
+  text-align: center;
+  color: #edf5e1;
+  margin: 0 auto;
+  width: 650px;
+}
+
+.header__area h1 {
+  margin: 0;
+  font-size: 42.5px;
+  font-weight: bold;
+}
+
+.header__area p {
+  margin: 0 auto;
+  margin-top: 12px;
+  width: 480px;
+  font-size: 16.5px;
+}
+
+.info__1 {
+  width: 100%;
+  height: 400px;
+  background: #fff;
+}
+
+.info__1__area {
+  color: #333;
+}
+
+.info__1__area img {
+  margin-top: 80px;
+  width: 400px;
+  height: 250px;
+  float: left;
+}
+
+.info__1__text {
+  text-align: center;
+  width: 450px;
+  float: left;
+  margin-left: 70px;
+  margin-top: 95px;
+  color: rgb(44, 184, 226);
+}
+
+.info__1__area h1 {
+  margin: 0;
+}
+
+.info__2 {
+  width: 100%;
+  height: 350px;
+}
+
+.info__2__area {
+  color: #fff;
+}
+
+.info__2__area img {
+  margin-top: 45px;
+  width: 400px;
+  height: 250px;
+  margin-left: 40px;
+  float: left;
+}
+
+.info__2__text {
+  text-align: center;
+  width: 450px;
+  float: left;
+  margin-left: 70px;
+  margin-top: 95px;
+  color: salmon;
+}
+
+.info__2__area h1 {
+  margin: 0;
+}
+
+.contact {
+  width: 100%;
+  height: 515px;
+}
+
+.contact__area h1 {
+  font-weight: normal;
+}
+
+.contact__area input {
+  margin: 10px 0;
+  border: 2px solid #333;
+  width: 350px;
+  padding: 8.5px;
+}
+
+.contact__area button {
+  padding: 8.5px;
+  width: 110px;
+  background: #333;
+  color: #fff;
+  border: 2px solid transparent;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.contact__area button:hover {
+  padding: 8.5px;
+  width: 110px;
+  background: #fff;
+  color: #333;
+  border: 2px solid transparent;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+footer {
+  background: #333;
+  margin-top: 170px;
+  padding: 17.5px;
+  text-align: center;
+  color: #fff;
+}
+
+footer p {
+  margin: 0;
+}
